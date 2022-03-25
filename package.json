@@ -1,0 +1,41 @@
+{
+  "name": "commission-client-review-tool",
+  "version": "1.0.0",
+  "description": "Tool for tracking, uploading, sharing, and commenting on commission WIPs",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meshtatsuo/commission-client-review-tool.git"
+  },
+  "keywords": [
+    "commission",
+    "review",
+    "tool"
+  ],
+  "author": "Dominic Misasi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meshtatsuo/commission-client-review-tool/issues"
+  },
+  "homepage": "https://github.com/Meshtatsuo/commission-client-review-tool#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  }
+}
